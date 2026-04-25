@@ -7,7 +7,7 @@ spec:
   template:
     serviceAccountName: argo-events-sa
   sqs:
-    tenant-onboarding:
+    default:
       # Replace region/queue with values from `terraform output`.
       # Pod Identity grants the ReceiveMessage/DeleteMessage permissions (see iam.tf).
       region: ap-northeast-2

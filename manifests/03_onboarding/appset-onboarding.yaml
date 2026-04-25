@@ -15,7 +15,7 @@ spec:
       annotations:
         argocd.argoproj.io/sync-wave: "-5"
     spec:
-      project: addons
+      project: workloads
       source:
         repoURL: https://github.com/pyy0715/gitops-lab.git
         targetRevision: main

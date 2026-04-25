@@ -1,0 +1,7 @@
+tenant: demo
+tier: basic
+wave: "1"
+replicaCount: 1
+image:
+  repository: public.ecr.aws/nginx/nginx
+  tag: "1.27"

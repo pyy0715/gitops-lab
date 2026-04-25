@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
   annotations:
     argocd-image-updater.argoproj.io/image-list: >-
-      app=ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/week6-argocd/sample-app
+      app=040531138489.dkr.ecr.ap-northeast-2.amazonaws.com/week6-argocd/sample-app
     argocd-image-updater.argoproj.io/app.update-strategy: latest
     argocd-image-updater.argoproj.io/app.pull-secret: ext:/scripts/ecr-login.sh
     argocd-image-updater.argoproj.io/write-back-method: git

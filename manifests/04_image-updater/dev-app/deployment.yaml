@@ -15,6 +15,6 @@ spec:
       containers:
         - name: app
           # Image tag is rewritten by argocd-image-updater on every push to ECR.
-          image: ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/week6-argocd/sample-app:v1
+          image: 040531138489.dkr.ecr.ap-northeast-2.amazonaws.com/week6-argocd/sample-app:v1
           ports:
             - containerPort: 8080

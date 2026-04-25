@@ -1,3 +1,9 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: ecr-token-reader
+  namespace: argocd
+---
 apiVersion: generators.external-secrets.io/v1alpha1
 kind: ECRAuthorizationToken
 metadata:
@@ -8,8 +14,7 @@ spec:
   auth:
     jwt:
       serviceAccountRef:
-        name: external-secrets
-        namespace: external-secrets
+        name: ecr-token-reader
 ---
 apiVersion: external-secrets.io/v1
 kind: ExternalSecret

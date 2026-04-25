@@ -6,7 +6,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "0"
 spec:
-  project: default
+  project: workloads
   source:
     repoURL: https://github.com/pyy0715/gitops-lab.git
     targetRevision: main

@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - 040531138489.dkr.ecr.ap-northeast-2.amazonaws.com/week6-argocd/sample-app:v2

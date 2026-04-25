@@ -58,4 +58,4 @@ spec:
           - name: REPO_HOST
             value: github.com
           - name: REPO_PATH
-            value: CHANGE-ME/gitops-lab.git
+            value: pyy0715/gitops-lab.git
